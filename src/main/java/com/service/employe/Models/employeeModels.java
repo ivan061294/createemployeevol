@@ -2,11 +2,14 @@ package com.service.employe.Models;
 
 public class employeeModels {
     private String fecha             ;
-    private String nombre            ;
-    private String nombre_segundo    ;
-    private String ape_paterno       ;
-    private String ape_materno       ;
-    private String uni_tiempo        ;
+    private String datosemployee     ;
+    public String getDatosemployee() {
+		return datosemployee;
+	}
+	public void setDatosemployee(String datosemployee) {
+		this.datosemployee = datosemployee;
+	}
+	private String uni_tiempo        ;
     private String tipo_contratacion ;
     public String getFecha() {
 		return fecha;
@@ -14,30 +17,8 @@ public class employeeModels {
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	public String getNombre_segundo() {
-		return nombre_segundo;
-	}
-	public void setNombre_segundo(String nombre_segundo) {
-		this.nombre_segundo = nombre_segundo;
-	}
-	public String getApe_paterno() {
-		return ape_paterno;
-	}
-	public void setApe_paterno(String ape_paterno) {
-		this.ape_paterno = ape_paterno;
-	}
-	public String getApe_materno() {
-		return ape_materno;
-	}
-	public void setApe_materno(String ape_materno) {
-		this.ape_materno = ape_materno;
-	}
+
+	
 	public String getUni_tiempo() {
 		return uni_tiempo;
 	}
